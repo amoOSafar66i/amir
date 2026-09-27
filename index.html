@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>معرفی من</title>
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">MY PROFILE</div>
+
+        <nav>
+            <a href="#home">خانه</a>
+            <a href="#about">درباره من</a>
+            <a href="#skills">مهارت‌ها</a>
+            <a href="#projects">پروژه‌ها</a>
+            <a href="#contact">ارتباط</a>
+        </nav>
+
+        <button class="nav-btn" onclick="welcomeUser()">
+            ورود
+        </button>
+    </header>
+
+
+    
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-title">
+                سلام، من هستم
+            </p>
+
+            <h1>
+                امیرعلی
+                <span>صفرزاده</span>
+            </h1>
+
+            <h2>
+                Front-End Developer
+            </h2>
+
+            <p>
+                من به طراحی سایت، برنامه‌نویسی و ساخت
+                رابط‌های کاربری مدرن علاقه دارم.
+                همیشه سعی می‌کنم چیزهای جدید یاد بگیرم
+                و پروژه‌های جذاب بسازم.
+            </p>
+
+            <div class="buttons">
+
+                <button onclick="showInfo()" class="main-btn">
+                    بیشتر درباره من
+                </button>
+
+                <button onclick="contactMe()" class="second-btn">
+                    ارتباط با من
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="circle">
+
+                <img
+                    src="img/file_00000000cf988210b035aca5c3a0171f.png"
+                    alt="Profile"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+  
+    <section id="about" class="about">
+
+        <div class="section-title">
+
+            <p>WHO AM I?</p>
+
+            <h2>
+                درباره من
+            </h2>
+
+        </div>
+
+
+        <div class="about-box">
+
+            <div class="about-image">
+
+                <img
+                    src="img/file_000000008d1c8210bd6d808528aa839a.png"
+                    alt="Programming"
+                >
+
+            </div>
+
+
+            <div class="about-text">
+
+                <h3>
+                    یک برنامه‌نویس علاقه‌مند به وب
+                </h3>
+
+                <p>
+                    من علاقه زیادی به دنیای تکنولوژی و طراحی سایت دارم.
+                    تمرکز اصلی من روی HTML، CSS و JavaScript است.
+                </p>
+
+                <p>
+                    هدفم این است که با تمرین بیشتر، پروژه‌های حرفه‌ای
+                    بسازم و مهارت‌های خودم را در زمینه برنامه‌نویسی
+                    افزایش بدهم.
+                </p>
+
+                <button
+                    onclick="aboutAlert()"
+                    class="main-btn"
+                >
+                    اطلاعات بیشتر
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="skills" class="skills">
+
+        <div class="section-title">
+
+            <p>MY SKILLS</p>
+
+            <h2>
+                مهارت‌های من
+            </h2>
+
+        </div>
+
+
+        <div class="skill-container">
+
+            <div class="skill-card">
+
+                <div class="icon">
+                    HTML
+                </div>
+
+                <h3>
+                    HTML
+                </h3>
+
+                <p>
+                    ساختاردهی صفحات وب و ایجاد محتوای استاندارد.
+                </p>
+
+                <div class="progress">
+                    <span style="width: 90%;"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="icon">
+                    CSS
+                </div>
+
+                <h3>
+                    CSS
+                </h3>
+
+                <p>
+                    طراحی صفحات زیبا و ریسپانسیو.
+                </p>
+                <div class="progress">
+                    <span style="width: 85%;"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="icon">
+                    JS
+                </div>
+
+                <h3>
+                    JavaScript
+                </h3>
+
+                <p>
+                    ایجاد تعامل و قابلیت‌های مختلف در سایت.
+                </p>
+
+                <div class="progress">
+                    <span style="width: 70%;"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+
+        <div class="section-title">
+
+            <p>MY PROJECTS</p>
+
+            <h2>
+                پروژه‌های من
+            </h2>
+
+        </div>
+
+
+        <div class="project-container">
+
+            <div class="project-card">
+
+                <div class="project-img">
+
+                    <img
+                        src="img/Screenshot 2026-09-27 204912.png"
+                        alt="Project"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Portfolio Website
+                    </h3>
+
+                    <p>
+                        طراحی یک سایت شخصی مدرن با HTML و CSS.
+                    </p>
+
+                    <button onclick="projectMessage()">
+                        مشاهده
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-img">
+
+                    <img
+                        src="img/Screenshot 2026-09-27 205335.png"
+                        alt="Project"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        JavaScript Project
+                    </h3>
+
+                    <p>
+                        یک پروژه تعاملی با استفاده از JavaScript.
+                    </p>
+
+                    <button onclick="projectMessage()">
+                        مشاهده
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-img">
+
+                    <img
+                        src="img/Screenshot 2026-09-27 205552.png"
+                        alt="Project"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Web Design
+                    </h3>
+
+                    <p>
+                        طراحی رابط کاربری مدرن و ریسپانسیو.
+                    </p>
+
+                    <button onclick="projectMessage()">
+                        مشاهده
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <div class="section-title">
+
+            <p>CONTACT ME</p>
+
+            <h2>
+                ارتباط با من
+            </h2>
+
+        </div>
+
+
+        <div class="contact-box">
+
+            <div>
+
+                <h3>
+                    آماده همکاری هستم 🚀
+                </h3>
+
+                <p>
+                    اگر سوالی دارید یا می‌خواهید با من در ارتباط باشید،
+                    روی دکمه زیر کلیک کنید.
+                </p>
+
+            </div>
+
+            <button
+                onclick="contactMe()"
+                class="main-btn"
+            >
+                تماس با من
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>
+            MY PROFILE
+        </h3>
+
+        <p>
+            ساخته شده با  و JavaScript
+        </p>
+
+        <p>
+            © 2026 All Rights Reserved
+        </p>
+
+    </footer>
+
+
+ 
+    <script src="js/app.js"></script>
+
+</body>
+</html>
