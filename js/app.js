@@ -35,3 +35,11 @@ alert(
     "\nCity: " + city +
     "\nFavorite Color: " + favoriteColor
 );
+
+let age = 15;
+
+if (age >= 18) {
+  console.log("شما بزرگسال هستید");
+} else {
+  console.log("شما هنوز زیر 18 سال هستید");
+}
